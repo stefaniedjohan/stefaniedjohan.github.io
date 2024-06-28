@@ -2,9 +2,9 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Stefanie Dorothea Djohan
+Stefanie Djohan
+Communication Design, Performance Marketing, Project Management
 
 Show Contacts
 
