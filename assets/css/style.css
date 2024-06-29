@@ -187,13 +187,13 @@ article {
   background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
-  border-radius: 8px;
+/*  border-radius: 8px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--orange-yellow-crayola);
-  box-shadow: var(--shadow-1);
+  color: MediumAquaMarine;
+/*  box-shadow: var(--shadow-1);*/
   z-index: 1;
 }
 
@@ -333,7 +333,9 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 15%;
+  overflow:hidden;
+  /*clip-path:circle();*/
 }
 
 .info-content .name {
@@ -342,6 +344,7 @@ main {
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
+  
 }
 
 .info-content .title {
@@ -352,6 +355,7 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+/*  text-align: center;*/
 }
 
 .info_more-btn {
