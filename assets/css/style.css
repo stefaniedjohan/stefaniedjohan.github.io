@@ -192,7 +192,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: MediumAquaMarine;
+  color: Turquoise;
 /*  box-shadow: var(--shadow-1);*/
   z-index: 1;
 }
@@ -544,7 +544,10 @@ main {
   z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box { 
+  margin-bottom: 10px;
+  color: Turquoise;
+}
 
 .service-icon-box img { margin: auto; }
 
@@ -754,7 +757,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(1) opacity(0.5); 
   transition: var(--transition-1);
 }
 
